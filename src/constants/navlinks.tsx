@@ -4,27 +4,27 @@ export const navlinks = [
     label: "Categorias",
   },
   {
-    route: "/explore",
+    route: "/marcas",
     label: "Marcas",
   },
   {
-    route: "/all-users",
+    route: "/about",
     label: "Nosotros",
   },
   {
-    route: "/saved",
+    route: "/utils",
     label: "Links utiles",
   },
   {
-    route: "/create-post",
+    route: "/sedes",
     label: "Sedes",
   },
   {
-    route: "/create-post",
+    route: "/contact",
     label: "Contacto",
   },
   {
-    route: "/create-post",
+    route: "/ofertas",
     label: "Ofertas",
   },
 ];
