@@ -1,4 +1,4 @@
- 
+
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVUaYxIv5wOUt41NjNqnc6rKXhbGDlCR42Q&usqp=CAU)
 
 
@@ -49,7 +49,8 @@ Start the server
 
 ## Environment Variables
 
-Para correr el proyecto de manera local se deben agregar las variables de entorno:
+Para correr el proyecto de manera local se deben agregar las variables de entorno.
+En VITE se declaran asi: 
 
 `VITE_REACT_APP_COUNTRY`
 
@@ -58,6 +59,12 @@ Para correr el proyecto de manera local se deben agregar las variables de entorn
 `VITE_REACT_APP_API_PRODUCTOS`
 
 `VITE_REACT_APP_API_CATEGORIES`
+
+Ejemplo de modo de uso: 
+
+console.log(import.meta.env.VITE_REACT_APP_API_COUNTRY)
+
+
 
 
 ## Estructuras y patrones de diseño
