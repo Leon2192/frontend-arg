@@ -1,0 +1,76 @@
+{
+    "employees": [
+        {
+            "id": 13,
+            "nombre": "Claudio Muñoz",
+            "correo": "claudio_munoz@solutionboxusa.com",
+            "cargo": "Gerente Regional",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/ClaudioMunos.jpeg",
+            "category": "gerencia"
+        },
+        {
+            "id": 14,
+            "nombre": "Pablo Guatelli",
+            "correo": "pablo_guatelli@solutionboxusa.com",
+            "cargo": "Gerente Comercial",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Staff%20resized/PabloGuatelli1.jpg",
+            "category": "gerencia"
+        },
+        {
+            "id": 1,
+            "nombre": "Alfredo Colman",
+            "correo": "alfredo_colman@solutionbox.com.py",
+            "cargo": "Country Manager",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Alfredo%20Colma_1.png",
+            "category": "Country Manager"
+        },
+        {
+            "id": 2,
+            "nombre": "Martin Ovando",
+            "correo": "martin_ovando@solutionbox.com.py",
+            "cargo": "Product Manager Wireless",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Martin%20Ovando.png",
+            "category": "Product Manager Wireless"
+        },
+        {
+            "id": 4,
+            "nombre": "Ruben Morinigo",
+            "correo": "ruben_morinigo@solutionbox.com.py",
+            "cargo": "Product Manager Huawei",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Ruben%20Morinigo_1.png",
+            "category": "Product Manager Huawei"
+        },
+        {
+            "id": 6,
+            "nombre": "Fernanda Aquino",
+            "correo": "fernanda_aquino@solutionbox.com.py",
+            "cargo": "Comercial",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Fernanda%20Aquino.png",
+            "category": "Comercial"
+        },
+        {
+            "id": 7,
+            "nombre": "Susana Mareco",
+            "correo": "susana_marecos@solutionbox.com.py",
+            "cargo": "Comercial",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Susana%20MAreco_1.png",
+            "category": "Comercial"
+        },
+        {
+            "id": 8,
+            "nombre": "Edgar Meza",
+            "correo": "edgar_meza@solutionbox.com.py",
+            "cargo": "Gerente de Logistica",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Edgar%20Meza.png",
+            "category": "Gerente de Logistica"
+        },
+        {
+            "id": 9,
+            "nombre": "Silvia Mernes",
+            "correo": "silvia_mernes@solutionbox.com.py",
+            "cargo": "Gerente Administrativo",
+            "img": "https://raw.githubusercontent.com/RamiroSB/imagenes/main/Paraguay-staff/Silvia%20Mernes.png",
+            "category": "Gerente Administrativo"
+        }
+    ]
+}
