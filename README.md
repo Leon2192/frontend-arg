@@ -1,30 +1,155 @@
-# React + TypeScript + Vite
+ 
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVUaYxIv5wOUt41NjNqnc6rKXhbGDlCR42Q&usqp=CAU)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Frontend Argentina 🇦🇷
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Proyecto desarrollado con Vite + Typescript
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm create vite@latest
+  cd my-project
+  npm install
+
+```
+    
+## Run this project locally
+
+Clonar este repositorio
+
+```bash
+  git clone https://repositorio
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Environment Variables
+
+Para correr el proyecto de manera local se deben agregar las variables de entorno:
+
+`VITE_REACT_APP_COUNTRY`
+
+`VITE_REACT_APP_DOMINIO`
+
+`VITE_REACT_APP_API_PRODUCTOS`
+
+`VITE_REACT_APP_API_CATEGORIES`
+
+
+## Estructuras y patrones de diseño
+
+![App Screenshot](https://i.postimg.cc/1thhsmJT/estructura.png)
+
+
+## Test mock API para los llamados con instancia de axios
+
+#### Obtener todos los productos (reemplazar por endpoints reales)
+
+```http
+  GET https://fakestoreapi.com/products
+```
+
+
+
+#### Obtener todas las categorias (reemplazar por endpoints reales)
+
+```http
+  GET https://fakestoreapi.com/products/categories
+```
+
+
+
+
+## Usage/Examples types e interfaces
+
+```typescript
+// Declaracion interface
+interface NavLinkInterface {
+   route: string;
+   label: string;
+}
+
+// Uso
+const navLink: NavLinkInterface = {
+    route: "/about",
+    label: "Acerca de nosotros"
+};
+
+
+// Declaracion type
+type NavLinkType = {
+   route: string;
+   label: string;
+}
+
+// Uso
+const navLink: NavLinkType = {
+    route: "/about",
+    label: "Acerca de nosotros"
+};
+
+
+```
+
+## Paleta de colores (reemplazar por paleta real)
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Red | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Black | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+
+
+
+## Deployment
+
+
+
+```bash
+  npm run build
+```
+
+
+## Enlaces utiles
+
+[Vite](https://vitejs.dev/)
+
+[Typescript](https://www.typescriptlang.org/docs/)
+
+[Tailwind CSS](https://tailwindcss.com/)
+
+[ZOD](https://zod.dev/)
+
+[React Hook Forms](https://react-hook-form.com/)
+
+[Axios](https://axios-http.com/es/docs/intro)
+
+
+
+## Authors
+
+- [@leon2192](https://www.github.com/leon2192)
+
